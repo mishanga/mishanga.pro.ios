@@ -6,88 +6,68 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXContainerItemProxy section */
-		5D3CC7332E5CABA500AF5A6E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5D3CC71D2E5CABA300AF5A6E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5D3CC7242E5CABA300AF5A6E;
-			remoteInfo = mishanga.pro;
-		};
-		5D3CC73D2E5CABA500AF5A6E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5D3CC71D2E5CABA300AF5A6E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5D3CC7242E5CABA300AF5A6E;
-			remoteInfo = mishanga.pro;
-		};
-/* End PBXContainerItemProxy section */
+/* Begin PBXBuildFile section */
+		8B44F766DB6B5EA815758968 /* Pods_mishanga_pro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9F208B3B7A287455328895 /* Pods_mishanga_pro.framework */; };
+/* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5D3CC7252E5CABA300AF5A6E /* mishanga.pro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mishanga.pro.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		5D3CC7322E5CABA500AF5A6E /* mishanga.proTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mishanga.proTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5D3CC73C2E5CABA500AF5A6E /* mishanga.proUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mishanga.proUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		284F2DFF41D3CDDE32AAB8B0 /* Pods-mishanga.pro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mishanga.pro.release.xcconfig"; path = "Target Support Files/Pods-mishanga.pro/Pods-mishanga.pro.release.xcconfig"; sourceTree = "<group>"; };
+		5E9F208B3B7A287455328895 /* Pods_mishanga_pro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mishanga_pro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2E48A432E65A09E00881103 /* mishanga.pro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mishanga.pro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7CA4DA4C0F620A4DBBE00A3 /* Pods-mishanga.pro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mishanga.pro.debug.xcconfig"; path = "Target Support Files/Pods-mishanga.pro/Pods-mishanga.pro.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		5D3CC7272E5CABA300AF5A6E /* mishanga.pro */ = {
+		D2E48A452E65A09E00881103 /* mishanga.pro */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = mishanga.pro;
-			sourceTree = "<group>";
-		};
-		5D3CC7352E5CABA500AF5A6E /* mishanga.proTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = mishanga.proTests;
-			sourceTree = "<group>";
-		};
-		5D3CC73F2E5CABA500AF5A6E /* mishanga.proUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = mishanga.proUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5D3CC7222E5CABA300AF5A6E /* Frameworks */ = {
+		D2E48A402E65A09E00881103 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5D3CC72F2E5CABA500AF5A6E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5D3CC7392E5CABA500AF5A6E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				8B44F766DB6B5EA815758968 /* Pods_mishanga_pro.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5D3CC71C2E5CABA300AF5A6E = {
+		0075607E076ABAF4429AE4E4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5D3CC7272E5CABA300AF5A6E /* mishanga.pro */,
-				5D3CC7352E5CABA500AF5A6E /* mishanga.proTests */,
-				5D3CC73F2E5CABA500AF5A6E /* mishanga.proUITests */,
-				5D3CC7262E5CABA300AF5A6E /* Products */,
+				5E9F208B3B7A287455328895 /* Pods_mishanga_pro.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C091E032E7975684507FC148 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F7CA4DA4C0F620A4DBBE00A3 /* Pods-mishanga.pro.debug.xcconfig */,
+				284F2DFF41D3CDDE32AAB8B0 /* Pods-mishanga.pro.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D2E48A3A2E65A09E00881103 = {
+			isa = PBXGroup;
+			children = (
+				D2E48A452E65A09E00881103 /* mishanga.pro */,
+				D2E48A442E65A09E00881103 /* Products */,
+				C091E032E7975684507FC148 /* Pods */,
+				0075607E076ABAF4429AE4E4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		5D3CC7262E5CABA300AF5A6E /* Products */ = {
+		D2E48A442E65A09E00881103 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5D3CC7252E5CABA300AF5A6E /* mishanga.pro.app */,
-				5D3CC7322E5CABA500AF5A6E /* mishanga.proTests.xctest */,
-				5D3CC73C2E5CABA500AF5A6E /* mishanga.proUITests.xctest */,
+				D2E48A432E65A09E00881103 /* mishanga.pro.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,134 +75,65 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5D3CC7242E5CABA300AF5A6E /* mishanga.pro */ = {
+		D2E48A422E65A09E00881103 /* mishanga.pro */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5D3CC7462E5CABA500AF5A6E /* Build configuration list for PBXNativeTarget "mishanga.pro" */;
+			buildConfigurationList = D2E48A542E65A0A000881103 /* Build configuration list for PBXNativeTarget "mishanga.pro" */;
 			buildPhases = (
-				5D3CC7212E5CABA300AF5A6E /* Sources */,
-				5D3CC7222E5CABA300AF5A6E /* Frameworks */,
-				5D3CC7232E5CABA300AF5A6E /* Resources */,
+				1B088F45D0831F386F943F41 /* [CP] Check Pods Manifest.lock */,
+				D2E48A3F2E65A09E00881103 /* Sources */,
+				D2E48A402E65A09E00881103 /* Frameworks */,
+				D2E48A412E65A09E00881103 /* Resources */,
+				58FA53BCF1E9BDEB4F7D78ED /* [CP] Embed Pods Frameworks */,
+				6C6BEE926B173CC55BBC7E7E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				5D3CC7272E5CABA300AF5A6E /* mishanga.pro */,
+				D2E48A452E65A09E00881103 /* mishanga.pro */,
 			);
 			name = mishanga.pro;
-			packageProductDependencies = (
-			);
 			productName = mishanga.pro;
-			productReference = 5D3CC7252E5CABA300AF5A6E /* mishanga.pro.app */;
+			productReference = D2E48A432E65A09E00881103 /* mishanga.pro.app */;
 			productType = "com.apple.product-type.application";
-		};
-		5D3CC7312E5CABA500AF5A6E /* mishanga.proTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5D3CC7492E5CABA500AF5A6E /* Build configuration list for PBXNativeTarget "mishanga.proTests" */;
-			buildPhases = (
-				5D3CC72E2E5CABA500AF5A6E /* Sources */,
-				5D3CC72F2E5CABA500AF5A6E /* Frameworks */,
-				5D3CC7302E5CABA500AF5A6E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				5D3CC7342E5CABA500AF5A6E /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				5D3CC7352E5CABA500AF5A6E /* mishanga.proTests */,
-			);
-			name = mishanga.proTests;
-			packageProductDependencies = (
-			);
-			productName = mishanga.proTests;
-			productReference = 5D3CC7322E5CABA500AF5A6E /* mishanga.proTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		5D3CC73B2E5CABA500AF5A6E /* mishanga.proUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5D3CC74C2E5CABA500AF5A6E /* Build configuration list for PBXNativeTarget "mishanga.proUITests" */;
-			buildPhases = (
-				5D3CC7382E5CABA500AF5A6E /* Sources */,
-				5D3CC7392E5CABA500AF5A6E /* Frameworks */,
-				5D3CC73A2E5CABA500AF5A6E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				5D3CC73E2E5CABA500AF5A6E /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				5D3CC73F2E5CABA500AF5A6E /* mishanga.proUITests */,
-			);
-			name = mishanga.proUITests;
-			packageProductDependencies = (
-			);
-			productName = mishanga.proUITests;
-			productReference = 5D3CC73C2E5CABA500AF5A6E /* mishanga.proUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		5D3CC71D2E5CABA300AF5A6E /* Project object */ = {
+		D2E48A3B2E65A09E00881103 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1640;
-				LastUpgradeCheck = 1640;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
 				TargetAttributes = {
-					5D3CC7242E5CABA300AF5A6E = {
-						CreatedOnToolsVersion = 16.4;
-					};
-					5D3CC7312E5CABA500AF5A6E = {
-						CreatedOnToolsVersion = 16.4;
-						TestTargetID = 5D3CC7242E5CABA300AF5A6E;
-					};
-					5D3CC73B2E5CABA500AF5A6E = {
-						CreatedOnToolsVersion = 16.4;
-						TestTargetID = 5D3CC7242E5CABA300AF5A6E;
+					D2E48A422E65A09E00881103 = {
+						CreatedOnToolsVersion = 16.2;
 					};
 				};
 			};
-			buildConfigurationList = 5D3CC7202E5CABA300AF5A6E /* Build configuration list for PBXProject "mishanga.pro" */;
+			buildConfigurationList = D2E48A3E2E65A09E00881103 /* Build configuration list for PBXProject "mishanga.pro" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 5D3CC71C2E5CABA300AF5A6E;
+			mainGroup = D2E48A3A2E65A09E00881103;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 5D3CC7262E5CABA300AF5A6E /* Products */;
+			productRefGroup = D2E48A442E65A09E00881103 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5D3CC7242E5CABA300AF5A6E /* mishanga.pro */,
-				5D3CC7312E5CABA500AF5A6E /* mishanga.proTests */,
-				5D3CC73B2E5CABA500AF5A6E /* mishanga.proUITests */,
+				D2E48A422E65A09E00881103 /* mishanga.pro */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		5D3CC7232E5CABA300AF5A6E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5D3CC7302E5CABA500AF5A6E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5D3CC73A2E5CABA500AF5A6E /* Resources */ = {
+		D2E48A412E65A09E00881103 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -231,22 +142,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1B088F45D0831F386F943F41 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-mishanga.pro-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		58FA53BCF1E9BDEB4F7D78ED /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mishanga.pro/Pods-mishanga.pro-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mishanga.pro/Pods-mishanga.pro-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-mishanga.pro/Pods-mishanga.pro-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C6BEE926B173CC55BBC7E7E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mishanga.pro/Pods-mishanga.pro-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mishanga.pro/Pods-mishanga.pro-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-mishanga.pro/Pods-mishanga.pro-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		5D3CC7212E5CABA300AF5A6E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5D3CC72E2E5CABA500AF5A6E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5D3CC7382E5CABA500AF5A6E /* Sources */ = {
+		D2E48A3F2E65A09E00881103 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -255,21 +211,8 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		5D3CC7342E5CABA500AF5A6E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 5D3CC7242E5CABA300AF5A6E /* mishanga.pro */;
-			targetProxy = 5D3CC7332E5CABA500AF5A6E /* PBXContainerItemProxy */;
-		};
-		5D3CC73E2E5CABA500AF5A6E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 5D3CC7242E5CABA300AF5A6E /* mishanga.pro */;
-			targetProxy = 5D3CC73D2E5CABA500AF5A6E /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
-		5D3CC7442E5CABA500AF5A6E /* Debug */ = {
+		D2E48A522E65A0A000881103 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -304,10 +247,9 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = K7DPZXNM63;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -322,18 +264,16 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		5D3CC7452E5CABA500AF5A6E /* Release */ = {
+		D2E48A532E65A0A000881103 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -368,10 +308,9 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = K7DPZXNM63;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -380,184 +319,109 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
-				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		5D3CC7472E5CABA500AF5A6E /* Debug */ = {
+		D2E48A552E65A0A000881103 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7CA4DA4C0F620A4DBBE00A3 /* Pods-mishanga.pro.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = mishanga.pro/mishanga.pro.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = K7DPZXNM63;
+				DEVELOPMENT_ASSET_PATHS = "\"mishanga.pro/Preview Content\"";
+				DEVELOPMENT_TEAM = XZ4MY8QK2N;
+				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "mishanga.pro/mishanga.pro-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "mishanga.mishanga-pro";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yandex.mishanga.pro;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 2.2;
 			};
 			name = Debug;
 		};
-		5D3CC7482E5CABA500AF5A6E /* Release */ = {
+		D2E48A562E65A0A000881103 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 284F2DFF41D3CDDE32AAB8B0 /* Pods-mishanga.pro.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = mishanga.pro/mishanga.pro.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = K7DPZXNM63;
+				DEVELOPMENT_ASSET_PATHS = "\"mishanga.pro/Preview Content\"";
+				DEVELOPMENT_TEAM = XZ4MY8QK2N;
+				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "mishanga.pro/mishanga.pro-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "mishanga.mishanga-pro";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yandex.mishanga.pro;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		5D3CC74A2E5CABA500AF5A6E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = K7DPZXNM63;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "mishanga.mishanga-proTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mishanga.pro.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/mishanga.pro";
-			};
-			name = Debug;
-		};
-		5D3CC74B2E5CABA500AF5A6E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = K7DPZXNM63;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "mishanga.mishanga-proTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mishanga.pro.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/mishanga.pro";
-			};
-			name = Release;
-		};
-		5D3CC74D2E5CABA500AF5A6E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = K7DPZXNM63;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "mishanga.mishanga-proUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = mishanga.pro;
-			};
-			name = Debug;
-		};
-		5D3CC74E2E5CABA500AF5A6E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = K7DPZXNM63;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "mishanga.mishanga-proUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = mishanga.pro;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 2.2;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5D3CC7202E5CABA300AF5A6E /* Build configuration list for PBXProject "mishanga.pro" */ = {
+		D2E48A3E2E65A09E00881103 /* Build configuration list for PBXProject "mishanga.pro" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5D3CC7442E5CABA500AF5A6E /* Debug */,
-				5D3CC7452E5CABA500AF5A6E /* Release */,
+				D2E48A522E65A0A000881103 /* Debug */,
+				D2E48A532E65A0A000881103 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5D3CC7462E5CABA500AF5A6E /* Build configuration list for PBXNativeTarget "mishanga.pro" */ = {
+		D2E48A542E65A0A000881103 /* Build configuration list for PBXNativeTarget "mishanga.pro" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5D3CC7472E5CABA500AF5A6E /* Debug */,
-				5D3CC7482E5CABA500AF5A6E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		5D3CC7492E5CABA500AF5A6E /* Build configuration list for PBXNativeTarget "mishanga.proTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5D3CC74A2E5CABA500AF5A6E /* Debug */,
-				5D3CC74B2E5CABA500AF5A6E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		5D3CC74C2E5CABA500AF5A6E /* Build configuration list for PBXNativeTarget "mishanga.proUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5D3CC74D2E5CABA500AF5A6E /* Debug */,
-				5D3CC74E2E5CABA500AF5A6E /* Release */,
+				D2E48A552E65A0A000881103 /* Debug */,
+				D2E48A562E65A0A000881103 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 5D3CC71D2E5CABA300AF5A6E /* Project object */;
+	rootObject = D2E48A3B2E65A09E00881103 /* Project object */;
 }
