@@ -7,14 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8B44F766DB6B5EA815758968 /* Pods_mishanga_pro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9F208B3B7A287455328895 /* Pods_mishanga_pro.framework */; };
+		D28597CF2E684D89007FC60F /* YandexMobileAds in Frameworks */ = {isa = PBXBuildFile; productRef = D28597CE2E684D89007FC60F /* YandexMobileAds */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		284F2DFF41D3CDDE32AAB8B0 /* Pods-mishanga.pro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mishanga.pro.release.xcconfig"; path = "Target Support Files/Pods-mishanga.pro/Pods-mishanga.pro.release.xcconfig"; sourceTree = "<group>"; };
-		5E9F208B3B7A287455328895 /* Pods_mishanga_pro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mishanga_pro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2E48A432E65A09E00881103 /* mishanga.pro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mishanga.pro.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F7CA4DA4C0F620A4DBBE00A3 /* Pods-mishanga.pro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mishanga.pro.debug.xcconfig"; path = "Target Support Files/Pods-mishanga.pro/Pods-mishanga.pro.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -30,37 +27,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B44F766DB6B5EA815758968 /* Pods_mishanga_pro.framework in Frameworks */,
+				D28597CF2E684D89007FC60F /* YandexMobileAds in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0075607E076ABAF4429AE4E4 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				5E9F208B3B7A287455328895 /* Pods_mishanga_pro.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		C091E032E7975684507FC148 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				F7CA4DA4C0F620A4DBBE00A3 /* Pods-mishanga.pro.debug.xcconfig */,
-				284F2DFF41D3CDDE32AAB8B0 /* Pods-mishanga.pro.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
 		D2E48A3A2E65A09E00881103 = {
 			isa = PBXGroup;
 			children = (
 				D2E48A452E65A09E00881103 /* mishanga.pro */,
 				D2E48A442E65A09E00881103 /* Products */,
-				C091E032E7975684507FC148 /* Pods */,
-				0075607E076ABAF4429AE4E4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,12 +57,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D2E48A542E65A0A000881103 /* Build configuration list for PBXNativeTarget "mishanga.pro" */;
 			buildPhases = (
-				1B088F45D0831F386F943F41 /* [CP] Check Pods Manifest.lock */,
 				D2E48A3F2E65A09E00881103 /* Sources */,
 				D2E48A402E65A09E00881103 /* Frameworks */,
 				D2E48A412E65A09E00881103 /* Resources */,
-				58FA53BCF1E9BDEB4F7D78ED /* [CP] Embed Pods Frameworks */,
-				6C6BEE926B173CC55BBC7E7E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -122,6 +97,9 @@
 			);
 			mainGroup = D2E48A3A2E65A09E00881103;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				D28597CD2E684D89007FC60F /* XCRemoteSwiftPackageReference "yandex-ads-sdk-ios" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = D2E48A442E65A09E00881103 /* Products */;
 			projectDirPath = "";
@@ -141,65 +119,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		1B088F45D0831F386F943F41 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-mishanga.pro-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		58FA53BCF1E9BDEB4F7D78ED /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-mishanga.pro/Pods-mishanga.pro-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-mishanga.pro/Pods-mishanga.pro-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-mishanga.pro/Pods-mishanga.pro-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		6C6BEE926B173CC55BBC7E7E /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-mishanga.pro/Pods-mishanga.pro-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-mishanga.pro/Pods-mishanga.pro-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-mishanga.pro/Pods-mishanga.pro-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D2E48A3F2E65A09E00881103 /* Sources */ = {
@@ -268,6 +187,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -322,13 +242,13 @@
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = "-ObjC";
 				SWIFT_COMPILATION_MODE = wholemodule;
 			};
 			name = Release;
 		};
 		D2E48A552E65A0A000881103 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F7CA4DA4C0F620A4DBBE00A3 /* Pods-mishanga.pro.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -365,7 +285,6 @@
 		};
 		D2E48A562E65A0A000881103 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 284F2DFF41D3CDDE32AAB8B0 /* Pods-mishanga.pro.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -422,6 +341,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D28597CD2E684D89007FC60F /* XCRemoteSwiftPackageReference "yandex-ads-sdk-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/yandexmobile/yandex-ads-sdk-ios";
+			requirement = {
+				kind = exactVersion;
+				version = 7.15.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D28597CE2E684D89007FC60F /* YandexMobileAds */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D28597CD2E684D89007FC60F /* XCRemoteSwiftPackageReference "yandex-ads-sdk-ios" */;
+			productName = YandexMobileAds;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D2E48A3B2E65A09E00881103 /* Project object */;
 }
